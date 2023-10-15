@@ -63,7 +63,7 @@ Cambiar lineas 143 y 144 de
     - ``eval `ssh-agent -s` `` y después
     - `ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519`
 
-# Crear cuenta GitHub
+## Crear cuenta GitHub
 - Navegar a <https://github.com>
 - Elegir "Sign up"
 - Seguir instrucciones
