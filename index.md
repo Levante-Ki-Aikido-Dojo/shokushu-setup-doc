@@ -39,7 +39,7 @@ Estas instrucciones suponen que se instala en Windows.
 - Si el SmartScreen impide la instalación, elegir "Más información" y después "Ejecutar de todas formas"
 - Revisar las opciones del instalador y elegir "Instalar". AVISO: este proceso tarda unas dos horas.
 - Cambiar el template del español en `C:\texlive\2023\texmf-dist\tex\generic\babel-spanish\spanish.ldf`:
-Cambiar lineas 143 y 144 de
+Cambiar líneas 143 y 144 de
   ```
   \SetString{\bibname}{Bibliograf\'{\i}a}%
   \SetString{\chaptername}{Cap\'{\i}tulo}%
