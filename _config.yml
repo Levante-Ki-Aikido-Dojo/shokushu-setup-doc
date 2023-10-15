@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: Shokushu setup docs
 description: Instrucciones para configurar el equipo para editar los Shokushu
