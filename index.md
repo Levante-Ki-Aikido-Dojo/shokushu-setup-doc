@@ -8,8 +8,10 @@ Estas instrucciones suponen que se instala en Windows.
 - Ejecutar instalador
 - Elegir "Next" en cada diálogo
 - Ejecutar en el terminal (cambiando `<tu nombre>` y `<tu email>`):
-  - `git config --global user.name "<tu nombre>"`
-  - `git config --global user.email "<tu email>"`
+```console
+> git config --global user.name "<tu nombre>"
+> git config --global user.email "<tu email>"
+```
 - Opcional: Abrir archivo en `C:\Users\<tu usuario>\.gitconfig` y entrar siguiente contenido abajo:
 ```
 [init]
@@ -55,7 +57,9 @@ Cambiar lineas 143 y 144 de
 ## Crear certificado SSL
 - Ejecutar aplicación Git bash
 - En el terminal (cambiando `<tu email>` y `<tu usuario>`):
-  - `ssh-keygen -t ed25519 -C "<tu email>"`
+  - ```console
+    > ssh-keygen -t ed25519 -C "<tu email>"
+    ```
   - Pulsar "Entrar" para aceptar donde guardar el archivo
   - Pulsar "Entrar" dos veces para guardar sin contraseña
   - `ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519`
