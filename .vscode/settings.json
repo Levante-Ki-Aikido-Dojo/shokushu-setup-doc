@@ -1,0 +1,15 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.wordWrap": "on",
+	"cSpell.language": "en,es",
+	"cSpell.customDictionaries": {
+		"diccionario-shokushu": {
+			"name": "diccionario-shokushu",
+			"path": "${workspaceFolder:shokushu-setup-doc}/.cspell/diccionario-shokushu.txt",
+			"addWords": true,
+			"scope": "workspace",
+		}
+	},
+}
