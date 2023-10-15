@@ -3,7 +3,7 @@
 Estas instrucciones suponen que se instala en Windows.
 
 ## Git
-- Navegar a https://gitforwindows.org
+- Navegar a <https://gitforwindows.org>
 - Descargar instalador
 - Ejecutar instalador
 - Elegir "Next" en cada diálogo
@@ -21,7 +21,7 @@ Estas instrucciones suponen que se instala en Windows.
 ```
 
 ## Visual Studio Code
-- Navegar a https://code.visualstudio.com/Download
+- Navegar a <https://code.visualstudio.com/Download>
 - Descargar instalador
 - Ejecutar instalador
 - Opcionalmente elegir "Crear un acceso directo en el escritorio"
@@ -31,7 +31,7 @@ Estas instrucciones suponen que se instala en Windows.
   - Spanish - Code Spell Checker
 
 ## Latex
-- Navegar a https://mirror.ctan.org/systems/texlive/install-tl-windows.exe
+- Navegar a <https://mirror.ctan.org/systems/texlive/install-tl-windows.exe>
 - La descarga del instalador empieza automáticamente
 - Ejecutar instalador
 - Si el SmartScreen impide la instalación, elegir "Más información" y después "Ejecutar de todas formas"
@@ -64,7 +64,7 @@ Cambiar lineas 143 y 144 de
     - `ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519`
 
 # Crear cuenta GitHub
-- Navegar a https://github.com
+- Navegar a <https://github.com>
 - Elegir "Sign up"
 - Seguir instrucciones
 - Desde la nueva cuenta navegar a Settings -> SSH and GPG keys
