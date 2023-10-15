@@ -1,0 +1,1 @@
+# shokushu-setup-doc
