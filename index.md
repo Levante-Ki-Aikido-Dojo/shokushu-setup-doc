@@ -79,8 +79,10 @@ Cambiar líneas 143 y 144 de
 - Elegir "New SSH key"
 - Elegir un título y bajo "Key" copiar y pegar el contenido de `C:/Users/<tu usuario>/.ssh/id_ed25519.pub`
 - Elegir "Add SSH key"
+- Pasar el nombre y email de tu cuenta para recibir acceso al repositorio
 
 ## Clonar repositorio
+- Primero asegúrate de que tu cuenta tiene acceso al repositorio de los shokushu
 - Abrir el terminal
 - Navegar a la carpeta deseada
 - ```console
