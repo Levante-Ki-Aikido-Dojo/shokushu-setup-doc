@@ -33,7 +33,7 @@ Estas instrucciones suponen que se instala en Windows.
   - Spanish - Code Spell Checker
 
 ## Latex
-- Navegar a <https://mirror.ctan.org/systems/texlive/install-tl-windows.exe>
+- Navegar a <https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe>
 - La descarga del instalador empieza automáticamente
 - Ejecutar instalador
 - Si el SmartScreen impide la instalación, elegir "Más información" y después "Ejecutar de todas formas"
