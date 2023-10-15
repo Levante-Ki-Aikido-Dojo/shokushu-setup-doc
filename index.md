@@ -62,10 +62,14 @@ Cambiar lineas 143 y 144 de
     ```
   - Pulsar "Entrar" para aceptar donde guardar el archivo
   - Pulsar "Entrar" dos veces para guardar sin contraseña
-  - `ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519`
+  - ```console
+    > ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519
+    ```
   - Si no encuentra el SSH agent primero entrar:
-    - ``eval `ssh-agent -s` `` y después
-    - `ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519`
+  - ```console
+    > eval `ssh-agent -s`
+    > ssh-add /c/Users/<tu usuario>/.ssh/id_ed25519
+    ```
 
 ## Crear cuenta GitHub
 - Navegar a <https://github.com>
@@ -79,11 +83,15 @@ Cambiar lineas 143 y 144 de
 ## Clonar repositorio
 - Abrir el terminal
 - Navegar a la carpeta deseada
-- `git clone git@github.com:pbrandwijk/shokushu.git`
+- ```console
+  > git clone git@github.com:pbrandwijk/shokushu.git
+  ```
 - Entrar "yes" si el sistema avisa que es una llave desconocida
 - Ahora descarga el repositorio en la carpeta
 
 ## Crear archivo PDF
 - Arrancar VS code y abrir carpeta del repositorio
 - Abrir el terminal del VS code
-- `pdflatex libro/shokushu.pdf`
+- ```console
+  > pdflatex libro/shokushu.pdf
+  ```
