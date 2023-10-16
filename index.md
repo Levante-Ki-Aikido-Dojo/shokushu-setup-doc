@@ -15,13 +15,13 @@ Estas instrucciones suponen que se instala en Windows.
 - Opcional: Abrir archivo en `C:\Users\<tu usuario>\.gitconfig` y entrar siguiente contenido abajo:
 ```
 [core]
-  commentchar = ";"
+	commentchar = ";"
 [init]
-  defaultBranch = main
+	defaultBranch = main
 [push]
-  autoSetupRemote = true
+	autoSetupRemote = true
 [remote "origin"]
-  prune = true
+	prune = true
 ```
 
 ## Visual Studio Code
