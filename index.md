@@ -14,12 +14,14 @@ Estas instrucciones suponen que se instala en Windows.
 ```
 - Opcional: Abrir archivo en `C:\Users\<tu usuario>\.gitconfig` y entrar siguiente contenido abajo:
 ```
+[core]
+  commentchar = ";"
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [push]
-	autoSetupRemote = true
+  autoSetupRemote = true
 [remote "origin"]
-	prune = true
+  prune = true
 ```
 
 ## Visual Studio Code
@@ -95,5 +97,6 @@ Cambiar líneas 143 y 144 de
 - Arrancar VS code y abrir carpeta del repositorio
 - Abrir el terminal del VS code
 - ```console
-  > pdflatex libro/shokushu.pdf
+  > cd libro
+  > pdflatex shokushu.tex
   ```
