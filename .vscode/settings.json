@@ -2,7 +2,8 @@
     "files.autoSave": "afterDelay",
     "editor.detectIndentation": false,
 	"editor.insertSpaces": false,
-	"editor.wordWrap": "on",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 80,
 	"cSpell.language": "en,es",
 	"cSpell.customDictionaries": {
 		"diccionario-shokushu": {
@@ -11,5 +12,8 @@
 			"addWords": true,
 			"scope": "workspace",
 		}
+	},
+	"[markdown]": {
+		"editor.wordWrap": "wordWrapColumn"
 	},
 }
