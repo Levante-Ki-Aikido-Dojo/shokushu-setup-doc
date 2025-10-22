@@ -93,6 +93,12 @@ Cambiar líneas 143 y 144 de
 - Entrar "yes" si el sistema avisa que es una llave desconocida
 - Ahora descarga el repositorio en la carpeta
 
+## Abrir proyecto en Visual Studio Code
+- Abrir Visual Studio Code
+- Navegar a File -> Open folder
+- Elegir la carpeta `shokushu`
+- Confirmar Trust folder
+
 ## Crear archivo PDF
 - Arrancar VS code y abrir carpeta del repositorio
 - Abrir el terminal del VS code
